@@ -1,0 +1,12 @@
+# 运行依赖
+# 原文件是 UTF-16 编码且列的是 minio/kafka/avro 等与本项目无关的包，
+# 这里按代码里实际的 import 重写。
+opencv-python>=4.8
+numpy>=1.24
+Pillow>=10.0
+requests>=2.31
+python-dotenv>=1.0
+moviepy>=2.0
+
+# 开发与测试
+pytest>=8.0
